@@ -1,0 +1,86 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+    background: #f4f4f4;
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background: #006699;
+    color: white;
+    padding: 30px 10px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+/* Sections */
+main {
+    max-width: 900px;
+    margin: auto;
+}
+
+section {
+    background: white;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #006699;
+    margin-bottom: 10px;
+}
+
+/* Skills list */
+.skills ul {
+    list-style-type: square;
+    padding-left: 20px;
+}
+
+.skills li {
+    margin: 5px 0;
+}
+
+/* Contact link */
+.contact a {
+    color: #006699;
+    text-decoration: none;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+    body {
+        padding: 10px;
+    }
+}
