@@ -7,7 +7,6 @@ This is my individual Lab 1 submission for CSCI 3172, where I created a simple, 
 * *Lab URL (GitLab)*: [https://git.cs.dal.ca/jakhar/csci-3172/-/tree/main/labs/lab_1](https://git.cs.dal.ca/jakhar/csci-3172/-/tree/main/labs/lab_1)
 * *Lab URL (Timberlea)*: [https://web.cs.dal.ca/~jakhar/csci3172/lab1](https://web.cs.dal.ca/~jakhar/csci3172/lab1)
 
-
 ## Authors
 
 * [Shruti Jakhar](mailto:shrutijakhar@dal.ca) - Individual Lab Submission
@@ -18,6 +17,7 @@ This is my individual Lab 1 submission for CSCI 3172, where I created a simple, 
 * [VS Code](https://code.visualstudio.com/) - Code editor
 * [GitLab](https://git.cs.dal.ca/) - Repository for version control and submission
 
+## Sources Used
 
 ### index.html
 
@@ -32,12 +32,11 @@ This is my individual Lab 1 submission for CSCI 3172, where I created a simple, 
 <!---How---> The code structure was based on standard HTML5 template.
 <!---Why---> Used to create a section for “About Me” content.
 <!---How---> Modified by adding image tag and paragraph text relevant to myself.
-### style.css
+style.css
+Lines 18 - 33
 
-*Lines 18 - 33*
-
-```css
-
+css
+Copy code
 .profile-pic {
   width: 200px;
   height: auto;

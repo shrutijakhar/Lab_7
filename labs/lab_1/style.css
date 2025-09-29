@@ -1,10 +1,21 @@
-/* Reset some default styles */
+/* ==========================================================================
+   Lab 1: Personal Webpage - CSS Styling
+   Author: Shruti Jakhar
+   Course: CSCI 3172
+   Created: 29 Sep 2025
+   Last Modified: 29 Sep 2025
+   Description: Styles for Lab 1 personal webpage, including header, sections,
+                profile image, skills, contact info, and responsive design.
+   ========================================================================== */
+
+/* */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* Body styling */
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
@@ -13,8 +24,7 @@ body {
     padding: 20px;
 }
 
-
-
+/* Profile picture */
 .profile-pic {
     width: 200px;         /* fixed size */
     height: auto;         /* keeps proportions */
@@ -23,16 +33,15 @@ body {
     margin: 20px auto;    /* centers image */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* soft shadow */
     border: 3px solid #4CAF50; /* green border */
-  }
-  
-  /* Responsive image: shrink for small screens */
-  @media (max-width: 600px) {
-    .profile-pic {
-      width: 120px;
-    }
-  }  
+}
 
-  
+/* Responsive image: shrink for small screens */
+@media (max-width: 600px) {
+    .profile-pic {
+        width: 120px;
+    }
+}
+
 /* Header */
 header {
     text-align: center;
@@ -48,7 +57,7 @@ header h1 {
     margin-bottom: 10px;
 }
 
-/* Sections */
+/* Main content sections */
 main {
     max-width: 900px;
     margin: auto;
