@@ -13,6 +13,26 @@ body {
     padding: 20px;
 }
 
+
+
+.profile-pic {
+    width: 200px;         /* fixed size */
+    height: auto;         /* keeps proportions */
+    border-radius: 50%;   /* makes it circular */
+    display: block;
+    margin: 20px auto;    /* centers image */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* soft shadow */
+    border: 3px solid #4CAF50; /* green border */
+  }
+  
+  /* Responsive image: shrink for small screens */
+  @media (max-width: 600px) {
+    .profile-pic {
+      width: 120px;
+    }
+  }  
+
+  
 /* Header */
 header {
     text-align: center;
