@@ -5,7 +5,8 @@ This is my individual Lab 1 submission for CSCI 3172, where I created a simple, 
 * *Date Created*: 29 Sep 2025
 * *Last Modification Date*: 29 Sep 2025
 * *Lab URL (GitLab)*: [https://git.cs.dal.ca/jakhar/csci-3172/-/tree/main/labs/lab_1](https://git.cs.dal.ca/jakhar/csci-3172/-/tree/main/labs/lab_1)
-* *Lab URL (Timberlea)*: [https://web.cs.dal.ca/~jakhar/csci3172/lab1](https://web.cs.dal.ca/~jakhar/csci3172/lab1)
+* *Lab URL (Timberlea)*: [https://web.cs.dal.ca/~jakhar/csci3172/labs/lab1/](https://web.cs.dal.ca/~jakhar/csci3172/labs/lab1/)
+
 
 ## Authors
 
