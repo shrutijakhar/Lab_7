@@ -4,9 +4,8 @@
 
 * *Date Created: 30 Sep 2025
 * *Last Modification Date: 1 Oct 2025
-* *Lab URL: 
-
-* *Git Repository: 
+* *Git Repository: https://git.cs.dal.ca/jakhar/csci-3172/-/tree/main/activities/lecture4?ref_type=heads 
+* *Timberlea link - https://web.cs.dal.ca/~jakhar/csci3172/activities/lecture4/  
 
 ## Authors
 
