@@ -3,15 +3,29 @@
 
 * *Date Created*: 14 10 2025
 * *Last Modification Date*: 14 10 2025
-* *Git Link - 
-* *Timberlea link - 
-
+* *Git Link - https://git.cs.dal.ca/jakhar/csci-3172/-/tree/main/activities/lecture7?ref_type=heads 
+* *Timberlea link - https://web.cs.dal.ca/~jakhar/csci3172/activities/lecture7/
+ 
 
 ## Authors
 
 * [Shruti Jakhar](shruti.jakhar@dal.ca) - (Developer)
 
-Sources Used
+
+
+## Built With
+
+* HTML5 - Structure of the webpage
+
+* CSS3 - Styling the webpage
+
+* Bootstrap 4 - Responsive layout and UI components
+
+* JavaScript - Dynamic functionality for adding/removing/searching creatures
+
+
+
+## Sources Used
 HTML (index.html)
 
 Lines 1 - 60
@@ -58,17 +72,6 @@ How → Implemented entirely by the developer to provide full functionality: add
 Why → To meet the assignment requirements and extend the example HTML.
 
 How → Features were implemented using JavaScript arrays, DOM manipulation, event listeners, and URL.createObjectURL() for image previews.
-
-
-## Built With
-
-* HTML5 - Structure of the webpage
-
-* CSS3 - Styling the webpage
-
-* Bootstrap 4 - Responsive layout and UI components
-
-* JavaScript - Dynamic functionality for adding/removing/searching creatures
 
 
 
