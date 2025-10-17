@@ -4,8 +4,8 @@ This project is an Inventory Management System for a magical shop, allowing user
 
 * *Date Created*: 17 Oct 2025
 * *Last Modification Date*: 17 Oct 2025
-* *Git Link -
-* *Timberlea Link - 
+* *Git Link - https://git.cs.dal.ca/jakhar/csci-3172/-/tree/main/labs/lab_2?ref_type=heads
+* *Timberlea Link - https://web.cs.dal.ca/~jakhar/csci3172/labs/lab_2/ 
 
 ## Authors
 
