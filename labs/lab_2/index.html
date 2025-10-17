@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magical Shop Inventory</title>
+
+  <!--
+    
+    File: index.html
+    Author: Shruti Jakhar
+    Banner ID - B00942565
+    Date: 17/10/2025
+    Purpose: Main HTML page for the Magical Shop Inventory Management System
+    Description: This page provides the user interface for managing the shop's inventory.
+                 Users can add, remove, search, and view inventory items. Additional
+                 functionality includes listing all items, calculating total value,
+                 grouping by category, and finding duplicates.
+    
+  -->
+
+  <!-- Link to external CSS stylesheet for styling the page -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+  <header class="header">
+    <img src="image/615123EN3SL.jpg" alt="Ollivanders Logo" class="logo" />
+    <h1 class="title">OLLIVANDERS</h1>
+  </header>
+
+  <!-- CONTROLS SECTION -->
+  <!-- 
+    Purpose: Allows the user to search for items, list all items, calculate total inventory value,
+             group items by category, and find duplicates.
+  -->
+  <section id="controls" class="card">
+    <input type="text" id="searchInput" placeholder="Search by name or type" />
+    <button id="searchBtn">Search</button>
+    <button id="listBtn">List All</button>
+    <button id="totalValueBtn">Total Value</button>
+    <button id="groupBtn">Group by Category</button>
+    <button id="duplicatesBtn">Find Duplicates</button>
+  </section>
+
+  <!-- ADD ITEM SECTION -->
+  <!-- 
+    Purpose: Allows the user to add a new item to the inventory.
+    Inputs: name, type, price, quantity, description
+  -->
+  <section id="add-item" class="card">
+    <h2>Add New Item</h2>
+    <input type="text" id="itemName" placeholder="Name" />
+    <input type="text" id="itemType" placeholder="Type" />
+    <input type="number" id="itemPrice" placeholder="Price" />
+    <input type="number" id="itemQuantity" placeholder="Quantity" />
+    <input type="text" id="itemDescription" placeholder="Description" />
+    <button id="addBtn">Add Item</button>
+  </section>
+
+  <!-- REMOVE ITEM SECTION -->
+  <!-- 
+    Purpose: Allows the user to remove an existing item from the inventory.
+    Input: Item name
+  -->
+  <section id="remove-item" class="card">
+    <h2>Remove Item</h2>
+    <input type="text" id="removeName" placeholder="Item name to remove" />
+    <button id="removeBtn">Remove</button>
+  </section>
+
+  <!-- INVENTORY DISPLAY SECTION -->
+  <!-- 
+    Purpose: Displays the current inventory items dynamically.
+    Inventory list will be updated using JavaScript DOM manipulation.
+  -->
+  <section id="inventory" class="card">
+    <h2>Inventory</h2>
+    <div id="inventoryList"></div>
+  </section>
+
+  <!-- Link to external JavaScript file -->
+  <script src="js/script.js" defer></script>
+</body>
+</html>
