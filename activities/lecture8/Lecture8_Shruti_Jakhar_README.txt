@@ -4,8 +4,8 @@ This project is a simple webpage that allows users to perform basic arithmetic o
 
 * *Date Created*: 22 Oct 2025  
 * *Last Modification Date*: 22 Oct 2025  
-* *Git link - 
-* *Timberlea link - 
+* *Git link -  https://git.cs.dal.ca/jakhar/csci-3172/-/tree/main/activities/lecture8?ref_type=heads 
+* *Timberlea link - https://web.cs.dal.ca/~jakhar/csci3172/activities/lecture8/ 
 
 
 ## Authors
