@@ -4,7 +4,7 @@
 
 * *Date Created*: 22 Oct 2025
 * *Last Modification Date*: 22 Oct 2025
-* *Git Link - 
+* *Git Link - https://git.cs.dal.ca/jakhar/csci-3172/-/tree/main/activities/lecture9?ref_type=heads 
 * *Timberlea Link - https://web.cs.dal.ca/~jakhar/csci3172/activities/lecture9/
 
 
