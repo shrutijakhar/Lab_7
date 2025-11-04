@@ -4,8 +4,8 @@ This lab implements a simple **user registration and login system** using JavaSc
 
 * *Date Created*: 03 Nov 2025
 * *Last Modification Date*: 03 Nov 2025
-* *GIT URL - 
-* *Timberlea URL - 
+* *GIT URL - https://git.cs.dal.ca/jakhar/csci-3172/-/tree/main/labs/lab_3?ref_type=heads 
+* *Timberlea URL - https://web.cs.dal.ca/~jakhar/csci3172/labs/lab3/ 
 
 ---
 
