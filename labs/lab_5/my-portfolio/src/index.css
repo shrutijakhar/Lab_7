@@ -1,0 +1,268 @@
+   /* 
+   FILE: styles.css
+   AUTHOR: Shruti Jakhar
+   CREATED: 2025-11-16
+   LAST UPDATED: 2025-11-16
+   DESCRIPTION:
+     This CSS file contains the global theme and styling rules
+     for the  Portfolio website. It includes 
+     layout, typography, navbar, home hero section, about 
+     page, projects page, buttons, cards, and footer styling 
+     with a clean modern white layout and neon accent highlights.
+  
+*/
+
+   body {
+    background: #f5f7fa;
+    font-family: 'Inter', sans-serif;
+    color: #0f172a;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .highlight-text {
+    color: #2563ff;
+    font-weight: 800;
+  }
+  
+
+  
+  .navbar-modern {
+    background: #0a0f1f;
+    padding: 1.2rem 0;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.35);
+  }
+  
+  .navbar-brand {
+    font-weight: 900;
+    font-size: 1.7rem;
+    color: #ffffff !important;
+    letter-spacing: 0.5px;
+  }
+  
+  .nav-link {
+    font-weight: 600;
+    color: #e2e8f0 !important;
+    margin-left: 1.5rem;
+    position: relative;
+    transition: 0.3s;
+  }
+  
+  .nav-link:hover {
+    color: #60a5fa !important;
+  }
+  
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 0%;
+    height: 2px;
+    background: #2563ff;
+    transition: 0.3s;
+  }
+  
+  .nav-link:hover::after {
+    width: 100%;
+  }
+  
+  .nav-link.active {
+    color: #60a5fa !important;
+  }
+  
+  
+  .home-container {
+    max-width: 1100px;
+    margin: 3.5rem auto;
+    padding: 1rem;
+  }
+  
+  .hero-section {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    background: #ffffff;
+    padding: 3rem;
+    border-radius: 28px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.08);
+    border-left: 6px solid #2563ff;
+    flex-wrap: wrap;
+  }
+  
+  .profile-photo {
+    width: 260px;
+    height: 260px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #2563ff;
+    box-shadow: 0 0 25px rgba(37,99,255,0.6);
+  }
+  
+  .hero-text h1 {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #0f172a;
+  }
+  
+  .hero-sub {
+    font-size: 1.15rem;
+    margin-top: 0.5rem;
+    color: #334155;
+  }
+  
+  .badge {
+    display: inline-block;
+    padding: 8px 18px;
+    margin: 0.3rem;
+    border-radius: 12px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    color: white;
+  }
+  
+  .badge-react { background: #61dafb; color: #0b1e2d; }
+  .badge-java { background: #ee8103; }
+  .badge-spring { background: #28b43b; }
+  .badge-python { background: #3776ab; }
+  .badge-sql { background: #f29111; }
+  
+  .btn-modern {
+    background: #2563ff;
+    padding: 14px 34px;
+    border-radius: 14px;
+    font-weight: 800;
+    color: white;
+    border: none;
+    margin-top: 2.7rem;  
+    box-shadow: 0 0 15px rgba(37,99,255,0.4);
+    transition: 0.25s;
+    display: inline-block;
+}
+  
+  .btn-modern:hover {
+    background: #0047e1;
+    transform: translateY(-3px);
+  }
+
+  
+  .about-container {
+    max-width: 1100px;
+    margin: 3rem auto;
+    padding: 1rem;
+  }
+  
+  .about-intro {
+    background: #ffffff;
+    padding: 2rem 2.5rem;
+    border-radius: 22px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    margin-bottom: 2.5rem;
+    border-left: 6px solid #2563ff;
+  }
+  
+  .about-text h2 {
+    font-size: 2.6rem;
+    font-weight: 900;
+    color: #0f172a;
+  }
+  
+  .about-text p {
+    font-size: 1.15rem;
+    color: #334155;
+    line-height: 1.6;
+  }
+  
+  .about-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 2rem;
+  }
+  
+  .about-card {
+    background: #ffffff;
+    padding: 2rem;
+    border-radius: 22px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    border-top: 4px solid #2563ff;
+    transition: 0.25s;
+  }
+  
+  .about-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.15);
+  }
+  
+  .about-card h4 {
+    font-size: 1.45rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #0f172a;
+  }
+  
+  .about-card li {
+    color: #334155;
+    margin-bottom: 1rem;
+    line-height: 1.55;
+  }
+  
+
+  
+  .projects-container {
+    max-width: 1100px;
+    margin: 3rem auto;
+    padding: 1rem;
+  }
+  
+  .projects-title {
+    font-size: 2.6rem;
+    font-weight: 900;
+    text-align: center;
+    color: #0f172a;
+    margin-bottom: 3rem;
+  }
+  
+  .projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(330px, 1fr));
+    gap: 2rem;
+  }
+  
+  .project-card {
+    padding: 2rem;
+    background: #ffffff;
+    border-radius: 22px;
+    border-left: 5px solid #2563ff;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    transition: 0.25s;
+  }
+  
+  .project-card:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 16px 40px rgba(0,0,0,0.15);
+  }
+  
+  .project-card h3 {
+    font-size: 1.45rem;
+    font-weight: 900;
+    color: #0f172a;
+    margin-bottom: 1rem;
+  }
+  
+  .project-card p {
+    color: #334155;
+    font-size: 1.05rem;
+    line-height: 1.55;
+  }
+  
+  
+  .footer-modern {
+    text-align: center;
+    padding: 1.8rem 0;
+    margin-top: 4rem;
+    background: #0a0f1f;
+    color: #e2e8f0;
+    font-size: 1rem;
+    letter-spacing: 0.4px;
+}
+
