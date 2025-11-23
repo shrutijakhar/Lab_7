@@ -1,0 +1,47 @@
+[
+    {
+      "name": "Social Media Platform — Dalhousie University",
+      "author": "Shruti Jakhar",
+      "languages": ["React", "Spring Boot", "MySQL", "CSS"],
+      "points": [
+        "Designed and developed a full-stack platform for student interaction.",
+        "Implemented user authentication, role-based access control, and dynamic course management using Spring Boot.",
+        "Built a responsive front-end in ReactJS integrated via REST APIs.",
+        "Used MySQL database with schema design based on normalization and indexing."
+      ]
+    },
+    {
+      "name": "SmartLibrary Manager — Java & SQL",
+      "author": "Shruti Jakhar",
+      "languages": ["Java", "SQL"],
+      "points": [
+        "Developed a console-based application to manage library operations.",
+        "Added features for book management, issue/return logs, and user tracking.",
+        "Implemented full CRUD operations with SQL joins and stored procedures.",
+        "Ensured data integrity using validations and optimized queries."
+      ]
+    },
+    {
+      "name": "Personal Portfolio Website",
+      "author": "Shruti Jakhar",
+      "languages": ["React", "CSS", "JavaScript", "Bootstrap"],
+      "description": "Developed a responsive personal portfolio website showcasing projects, skills, and contact information."
+    },
+    {
+      "name": "Battleship Game — Java",
+      "author": "Shruti Jakhar",
+      "languages": ["Java"],
+      "description": "Created a two-player Battleship game using object-oriented programming principles, including inheritance and polymorphism."
+    },
+    {
+      "name": "Restaurant Web Application",
+      "author": "Shruti Jakhar",
+      "languages": ["HTML", "CSS", "JavaScript"],
+      "points": [
+        "Built a responsive restaurant website with online ordering and payment functionality.",
+        "Implemented dynamic menus, cart functionality, and customer feedback form.",
+        "Ensured cross-browser compatibility and optimized performance for mobile devices."
+      ]
+    }
+  ]
+  

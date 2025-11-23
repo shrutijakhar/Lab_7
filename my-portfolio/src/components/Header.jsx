@@ -1,7 +1,7 @@
 import { NavLink } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
-export default function Header() {
+export default function Header({ toggleTheme, theme }) { 
   return (
     <nav className="navbar navbar-expand-lg navbar-modern">
       <div className="container">
@@ -9,6 +9,10 @@ export default function Header() {
 
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
           <span className="navbar-toggler-icon"></span>
+        </button>
+
+        <button className="btn btn-outline-secondary ms-3" onClick={toggleTheme}>
+          Switch to {theme === 'light' ? 'Dark' : 'Light'} Mode
         </button>
 
         <div className="collapse navbar-collapse" id="navMenu">
@@ -28,3 +32,4 @@ export default function Header() {
     </nav>
   );
 }
+

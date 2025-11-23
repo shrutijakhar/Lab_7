@@ -1,11 +1,8 @@
+import React from "react";
+import Skills from "../components/Skills.jsx"; 
+
 export default function About() {
   const education = ["BSc Computer Science — Dalhousie University"];
-
-  const skills = [
-    "React, Java, Spring Boot, SQL, Python",
-    "TensorFlow, Git, Power BI, Excel",
-    "C++, PowerShell"
-  ];
 
   const experience = [
     {
@@ -21,7 +18,6 @@ export default function About() {
   return (
     <div className="about-container">
       
-      {/* Intro Section */}
       <section className="about-intro">
         <div className="about-text">
           <h2>About Me</h2>
@@ -34,10 +30,8 @@ export default function About() {
         </div>
       </section>
 
-      {/* About Cards */}
       <section className="about-cards">
 
-        {/* Education */}
         <AboutCard title="Education">
           <ul>
             {education.map((item, i) => (
@@ -46,16 +40,11 @@ export default function About() {
           </ul>
         </AboutCard>
 
-        {/* Skills */}
         <AboutCard title="Skills">
-          <ul>
-            {skills.map((s, i) => (
-              <li key={i}>{s}</li>
-            ))}
-          </ul>
+          <Skills />
         </AboutCard>
 
-        {/* Career Goals */}
+        
         <AboutCard title="Career Goals">
           <p>
             I aim to grow as a full-stack developer and contribute to impactful,  
@@ -63,7 +52,7 @@ export default function About() {
           </p>
         </AboutCard>
 
-        {/* Experience */}
+        
         <AboutCard title="Experience">
           <ul>
             {experience.map((exp, i) => (
@@ -81,9 +70,6 @@ export default function About() {
   );
 }
 
-/* 
-   Reusable Card Component
-*/
 function AboutCard({ title, children }) {
   return (
     <div className="about-card">

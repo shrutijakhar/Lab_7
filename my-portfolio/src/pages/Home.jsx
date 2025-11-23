@@ -1,13 +1,35 @@
 
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 import profileImg from "../assets/photo.png";
 
 export default function Home() {
+  const [weather, setWeather] = useState(null);
+  const [error, setError] = useState(null); 
+
+  
+  useEffect(() => {
+    const fetchWeather = async () => {
+      try {
+        const res = await fetch("http://localhost:5001/api/weather");
+        if (!res.ok) {
+        
+          throw new Error(`HTTP error! Status: ${res.status}`);
+        }
+        const data = await res.json();
+        setWeather(data);
+      } catch (err) {
+        console.error("Error fetching weather:", err);
+        setError("Failed to load weather data");
+      }
+    };
+
+    fetchWeather();
+  }, []);
+
   return (
     <div className="home-container">
-
       <div className="hero-section">
-
         <img src={profileImg} alt="Shruti" className="profile-photo" />
 
         <div className="hero-text">
@@ -31,10 +53,21 @@ export default function Home() {
           <Link to="/projects" className="btn-modern">
             View Projects
           </Link>
+
+          
+          {error ? (
+            <p style={{ color: "red", marginTop: "1rem" }}>{error}</p>
+          ) : weather ? (
+            <div className="weather-info" style={{ marginTop: "1rem" }}>
+              <h3>Weather in {weather.city}</h3>
+              <p>Temperature: {weather.temp}°C</p>
+              <p>Humidity: {weather.humidity}%</p>
+            </div>
+          ) : (
+            <p>Loading weather...</p>
+          )}
         </div>
-
       </div>
-
     </div>
   );
 }
