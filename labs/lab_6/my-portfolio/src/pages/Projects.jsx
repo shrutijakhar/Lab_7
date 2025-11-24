@@ -5,7 +5,7 @@ export default function Projects() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    fetch("http://localhost:5001/api/projects")
+    fetch("https://lab-6-10io.onrender.com/api/projects")
       .then(res => res.json())
       .then(data => {
         setProjects(data);

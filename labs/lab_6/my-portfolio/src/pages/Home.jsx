@@ -8,12 +8,13 @@ export default function Home() {
   const [error, setError] = useState(null); 
 
   
+
+
   useEffect(() => {
     const fetchWeather = async () => {
       try {
-        const res = await fetch("http://localhost:5001/api/weather");
+        const res = await fetch("https://lab-6-10io.onrender.com/api/weather");
         if (!res.ok) {
-        
           throw new Error(`HTTP error! Status: ${res.status}`);
         }
         const data = await res.json();
@@ -23,10 +24,9 @@ export default function Home() {
         setError("Failed to load weather data");
       }
     };
-
+  
     fetchWeather();
   }, []);
-
   return (
     <div className="home-container">
       <div className="hero-section">
