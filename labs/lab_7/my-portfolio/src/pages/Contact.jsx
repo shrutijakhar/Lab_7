@@ -203,7 +203,7 @@
 
 
 import React, { useEffect, useState } from 'react';
-import { escapeHtml } from '../utils/sanitize';
+import { escapeHtml } from '../Utils/sanitize.js';
 
 const DRAFT_KEY = 'contact_draft_v1';
 const API_BASE = import.meta.env.VITE_API_BASE || 'http://localhost:5001';
